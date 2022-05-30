@@ -1,0 +1,73 @@
+{
+    "aws.profile": "profile:Administrator",
+    "aws.onDefaultRegionMissing": "add",
+    "bracketPairColorizer.depreciation-notice": false,
+    "colorize.colorized_variables": [
+        "LESS",
+        "SASS",
+        "CSS",
+        "SCSS",
+        "STYLUS",
+        "STYL"
+    ],
+    "colorize.colorized_colors": ["HEXA", "RGB"],
+    "colorize.languages": ["javascript", "typescript"],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.renderLineHighlight": "gutter",
+    "editor.lineHeight": 1.5,
+    "editor.fontLigatures": true,
+    "editor.rulers": [100],
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "tabnine.experimentalAutoImports": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.fontFamily": "MesloLGM NF",
+    "workbench.startupEditor": "none",
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Omni",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        // "editorRuler.foreground": "#c7c7c7"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma",
+        "editor.formatOnSave": true
+    },
+    "dart.previewLsp": true,
+    "dart.openDevTools": "flutter",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [140],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "javascript": false
+    },
+    "cSpell.userWords": ["todos"]
+}
