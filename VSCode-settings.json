@@ -22,6 +22,7 @@
         "IUGU",
         "middlewares",
         "mixpanel",
+        "nestjs",
         "Onboarded",
         "prefetch",
         "rocketseat",
@@ -46,16 +47,13 @@
     "editor.suggestSelection": "first",
     "explorer.confirmDelete": false,
     "gitlens.codeLens.recentChange.enabled": false,
-    "terminal.integrated.showExitAlert": false,
 
     "[prisma]": {
         "editor.formatOnSave": true
     },
 
     "typescript.suggest.autoImports": true,
-    "terminal.integrated.env.osx": {
-        "FIG_NEW_SESSION": "1"
-    },
+
     "workbench.editor.labelFormat": "short",
     "editor.fontLigatures": true,
     "emmet.includeLanguages": {
@@ -118,7 +116,7 @@
     "git.enableSmartCommit": true,
     "editor.accessibilitySupport": "off",
     "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.fontSize": 14,
+    
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
@@ -136,7 +134,23 @@
         "**/.svn": true,
         "**/.git": true
     },
-    "tabnine.experimentalAutoImports": true,
-    "gitlens.codeLens.enabled": false,
-    "workbench.iconTheme": "material-icon-theme"
+    
+    "workbench.iconTheme": "material-icon-theme",    
+    "terminal.external.windowsExec": "E:\\7\\pwsh.exe -NoLogo",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+    "terminal.integrated.defaultProfile.windows": "PW7",
+    "terminal.integrated.profiles.windows": {
+        "PW7": {
+          "path": "E:\\7\\pwsh.exe",
+          "args": ["-NoLogo"],
+          "color": "terminal.ansiBlue"
+
+        }
+      },
+      "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+
 }
