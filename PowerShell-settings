@@ -1,8 +1,3 @@
-Import-Module posh-git
-Import-Module oh-my-posh
-# Set-Theme Paradox
-Set-Theme Robbyrussell
-
 Import-Module PSReadLine
 
 # Shows navigable menu of all options when hitting Tab
@@ -16,4 +11,5 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 Set-PSReadLineOption -ShowToolTips
 Set-PSReadLineOption -PredictionSource History
 
-oh-my-posh init pwsh | Invoke-Expression
+# oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\dpisa\Documents\PowerShell\marcduiker.omp.json' | Invoke-Expression
