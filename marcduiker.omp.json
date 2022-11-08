@@ -1,3 +1,5 @@
+//oh-myposh theme - used on PowerShell terminal
+
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "blocks": [
