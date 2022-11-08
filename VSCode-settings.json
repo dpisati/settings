@@ -3,7 +3,7 @@
         "javascript": "jsx"
     },
     "workbench.startupEditor": "newUntitledFile",
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "javascript.suggest.autoImports": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.rulers": [80, 120],
