@@ -1,4 +1,5 @@
 {
+    "editor.formatOnSave": true,
     "editor.fontFamily": "JetBrains Mono",
     "editor.renderLineHighlight": "gutter",
     "editor.suggestSelection": "first",
@@ -14,6 +15,8 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 70,
     "cSpell.language": "en",
     "emmet.syntaxProfiles": {
         "javascript": "jsx"
@@ -61,6 +64,14 @@
     "[prisma]": {
         "editor.formatOnSave": true
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
+
 
     "typescript.suggest.autoImports": true,
 
