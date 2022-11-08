@@ -137,7 +137,7 @@
     
     "workbench.iconTheme": "material-icon-theme",    
     "terminal.external.windowsExec": "E:\\7\\pwsh.exe -NoLogo",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 12,
     "terminal.integrated.showExitAlert": false,
     "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
     "terminal.integrated.defaultProfile.windows": "PW7",
