@@ -1,10 +1,18 @@
 {
-	"Print to console": {
-		"scope": "javascript,typescript",
-		"prefix": "clg",
-		"body": [
-			"console.log(`${TM_SELECTED_TEXT:${1:foo}}: `, ${TM_SELECTED_TEXT:${1:foo}});",
-		],
-		"description": "dpisati - Console log with text highlighting"
-	}
+    "dpisati - Print to console": {
+        "scope": "javascript,typescript",
+        "prefix": "clg",
+        "body": [
+            "console.log(`${TM_SELECTED_TEXT:${1:foo}}: `, ${TM_SELECTED_TEXT:${1:foo}});"
+        ],
+        "description": "dpisati - Console log with text highlighting"
+    },
+    "dpisati - Clean print to console": {
+        "scope": "javascript,typescript",
+        "prefix": "xlg",
+        "body": [
+            "console.log(`${TM_SELECTED_TEXT:${1:foo}}`);"
+        ],
+        "description": "dpisati - Console log with text highlighting"
+    }
 }
