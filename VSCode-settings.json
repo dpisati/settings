@@ -13,7 +13,8 @@
     "editor.semanticHighlighting.enabled": false,
     "editor.accessibilitySupport": "off",
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
     },
     "prettier.singleQuote": true,
     "prettier.printWidth": 70,
